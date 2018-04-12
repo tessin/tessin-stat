@@ -40,7 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Statistics\RunningStatValueBucket.cs" />
     <Compile Include="Statistics\Randomness.cs" />
+    <Compile Include="Statistics\RunningStatValue.cs" />
+    <Compile Include="Statistics\RunningStatValueBucketManager.cs" />
     <Compile Include="Statistics\StatisticsHelper.cs" />
     <Compile Include="Statistics\Mean.cs" />
     <Compile Include="Statistics\RunningStat.cs" />
